@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="option.mybb_import_log_table_name" version_id="1000000" version_string="1.0.0-dev"><![CDATA[Nom de la table de log de l'importateur MyBB]]></phrase>
+  <phrase title="option.mybb_seo_plugin_table_name" version_id="1000000" version_string="1.0.0-dev"><![CDATA[Nom de la table du plugin SEO MyBB]]></phrase>
+  <phrase title="option_explain.mybb_import_log_table_name" version_id="1000000" version_string="1.0.0-dev"><![CDATA[]]></phrase>
+  <phrase title="option_explain.mybb_seo_plugin_table_name" version_id="1000000" version_string="1.0.0-dev"><![CDATA[]]></phrase>
+  <phrase title="option_group.xyzt_ketamine" version_id="1000000" version_string="1.0.0-dev"><![CDATA[Kétamine - Redirection des liens de topics]]></phrase>
+  <phrase title="option_group_description.xyzt_ketamine" version_id="1000000" version_string="1.0.0-dev"><![CDATA[Redirige les anciens liens de topics du plugin SEO MyBB vers les nouveaux liens Xenforo.]]></phrase>
+</phrases>

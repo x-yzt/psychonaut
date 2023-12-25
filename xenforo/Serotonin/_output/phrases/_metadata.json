@@ -1,0 +1,44 @@
+{
+    "admin_navigation.xyzt_serotonin.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0-dev",
+        "hash": "3bc0811bb15b459aa9cc2bc843db6aa3"
+    },
+    "option.myBBImportLogTableName.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0-dev",
+        "hash": "a7f46070f57872311fd5315468f184ab"
+    },
+    "option.myBBLikePluginTableName.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0-dev",
+        "hash": "1278fd3a9a8e670450bb9ff0532a45be"
+    },
+    "option_explain.myBBImportLogTableName.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0-dev",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.myBBLikePluginTableName.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0-dev",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_group.xyzt_serotonine.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0-dev",
+        "hash": "3bc0811bb15b459aa9cc2bc843db6aa3"
+    },
+    "option_group_description.xyzt_serotonine.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0-dev",
+        "hash": "adc4ff4579a01555c3f8c0d36be3283a"
+    }
+}

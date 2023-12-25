@@ -1,0 +1,10 @@
+{
+    "parent_navigation_id": "addOns",
+    "display_order": 12000,
+    "link": "import-mybb-likes",
+    "icon": "",
+    "admin_permission_id": "reaction",
+    "debug_only": false,
+    "development_only": false,
+    "hide_no_children": false
+}

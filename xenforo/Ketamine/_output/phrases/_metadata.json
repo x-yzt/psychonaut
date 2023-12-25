@@ -1,0 +1,38 @@
+{
+    "option.mybb_import_log_table_name.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0-dev",
+        "hash": "a7f46070f57872311fd5315468f184ab"
+    },
+    "option.mybb_seo_plugin_table_name.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0-dev",
+        "hash": "b70ef4cfe6b9a103e3539d50cb409b2f"
+    },
+    "option_explain.mybb_import_log_table_name.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0-dev",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.mybb_seo_plugin_table_name.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0-dev",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_group.xyzt_ketamine.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0-dev",
+        "hash": "da8b3143a8ee55b96081281abc17eb34"
+    },
+    "option_group_description.xyzt_ketamine.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0-dev",
+        "hash": "2a1670277fc6bd7fe3e52d989534f1be"
+    }
+}

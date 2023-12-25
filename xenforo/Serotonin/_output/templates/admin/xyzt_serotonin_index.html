@@ -1,0 +1,37 @@
+<xf:title>Sérotonine</xf:title>
+<xf:description>
+  Importation des réactions depuis le plugin MyBB ThankYouLike.
+</xf:description>
+
+<div>
+  <p>
+    Avant de lancer l'importation, une configuration de Sérotonine est
+    nécessaire.
+  </p>
+
+  <p>      
+    <a href="{{ link('options/groups/xyzt_serotonine/') }}">
+      <xf:fa icon="fa-fw fa-cogs" />
+      Voir la configuration
+    </a>
+  </p>
+
+  <xf:form action="{{ link('import-mybb-likes/import/') }}" class="block">
+    <div class="block-container">
+      <div class="block-body">
+        <xf:macro
+          template="addon_action_macros"
+          name="summary" 
+          arg-warnings="{$warnings}"
+        />
+      </div>
+    
+      <xf:macro
+        template="addon_action_macros"
+        name="action"
+        arg-warnings="{$warnings}"
+        arg-submit="Lancer l'importation"
+      />
+    </div>
+  </xf:form>
+</div>

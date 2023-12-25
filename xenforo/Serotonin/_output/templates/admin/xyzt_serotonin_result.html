@@ -1,0 +1,32 @@
+<xf:title>Sérotonine</xf:title>
+<xf:description>
+  Importation des réactions depuis le plugin MyBB ThankYouLike.
+</xf:description>
+
+<div>
+  <h2>
+    Opération terminée.
+  </h2>
+
+  <xf:if is="$errors">
+    <div class="block-rowMessage block-rowMessage--error block-rowMessage--iconic">
+      <h3>Des erreurs ont été rencontrées lors de l'importation.</h3>
+
+      <ul>
+        <xf:foreach loop="$errors" value="$error">
+          <li>{$error}</li>
+        </xf:foreach>
+      </ul>
+    </div>
+  </xf:if>
+
+  <h3>Journal de l'opération</h3>
+
+  <ul>
+    <xf:foreach loop="$reactions" value="$reaction">
+      <li>La réaction {$reaction} a été créée.</li>
+    </xf:foreach>
+
+    <li>Le cache de réactions a été reconstruit.</li>
+  </ul>
+</div>

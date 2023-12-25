@@ -1,0 +1,1 @@
+Nom de la table de log de l'importateur MyBB

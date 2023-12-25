@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "Kétamine",
+    "description": "Redirige les anciens liens de topics du plugin SEO MyBB vers les nouveaux liens Xenforo. Habilement bricolé par xyzt_.",
+    "version_id": 1000000,
+    "version_string": "1.0.0-dev",
+    "dev": "xyzt_",
+    "dev_url": "https://github.com/x-yzt",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": [],
+    "icon": "fa-prescription-bottle-alt"
+}

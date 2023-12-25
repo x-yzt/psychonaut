@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "Sérotonine",
+    "description": "Importe les réactions du plugin de likes MyBB. Habilement bricolé par xyzt_.",
+    "version_id": 1000010,
+    "version_string": "1.0.0-dev",
+    "dev": "xyzt_",
+    "dev_url": "https://github.com/x-yzt",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": [],
+    "icon": "fa-grin-stars"
+}

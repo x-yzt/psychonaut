@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="admin_navigation.xyzt_serotonin" version_id="1000010" version_string="1.0.0-dev"><![CDATA[Sérotonine]]></phrase>
+  <phrase title="option.myBBImportLogTableName" version_id="1000010" version_string="1.0.0-dev"><![CDATA[Nom de la table de log de l'importateur MyBB]]></phrase>
+  <phrase title="option.myBBLikePluginTableName" version_id="1000010" version_string="1.0.0-dev"><![CDATA[Nom de la table du plugin de likes de MyBB]]></phrase>
+  <phrase title="option_explain.myBBImportLogTableName" version_id="1000010" version_string="1.0.0-dev"><![CDATA[]]></phrase>
+  <phrase title="option_explain.myBBLikePluginTableName" version_id="1000010" version_string="1.0.0-dev"><![CDATA[]]></phrase>
+  <phrase title="option_group.xyzt_serotonine" version_id="1000010" version_string="1.0.0-dev"><![CDATA[Sérotonine]]></phrase>
+  <phrase title="option_group_description.xyzt_serotonine" version_id="1000010" version_string="1.0.0-dev"><![CDATA[Importe les réactions du plugin de likes MyBB.]]></phrase>
+</phrases>

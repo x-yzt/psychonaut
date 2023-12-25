@@ -1,0 +1,12 @@
+{
+    "admin/xyzt_serotonin_index.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0-dev",
+        "hash": "f5071abd7328bf3f07d86ec0238e334e"
+    },
+    "admin/xyzt_serotonin_result.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0-dev",
+        "hash": "604d65e42724e2ec03a8cf41f5ceb343"
+    }
+}

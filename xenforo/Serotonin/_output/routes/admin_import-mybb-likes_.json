@@ -1,0 +1,11 @@
+{
+    "route_type": "admin",
+    "route_prefix": "import-mybb-likes",
+    "sub_name": "",
+    "format": "",
+    "build_class": "",
+    "build_method": "",
+    "controller": "Xyzt\\Serotonin:Index",
+    "context": "",
+    "action_prefix": ""
+}

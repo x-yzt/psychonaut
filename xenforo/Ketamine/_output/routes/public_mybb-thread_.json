@@ -1,0 +1,11 @@
+{
+    "route_type": "public",
+    "route_prefix": "mybb-thread",
+    "sub_name": "",
+    "format": ":any<thread_slug>/",
+    "build_class": "",
+    "build_method": "",
+    "controller": "Xyzt\\Ketamine:MyBBThread",
+    "context": "",
+    "action_prefix": ""
+}

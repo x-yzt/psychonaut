@@ -1,0 +1,1 @@
+Redirige les anciens liens de topics du plugin SEO MyBB vers les nouveaux liens Xenforo.

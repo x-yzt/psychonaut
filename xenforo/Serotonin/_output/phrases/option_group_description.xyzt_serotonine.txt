@@ -1,0 +1,1 @@
+Importe les réactions du plugin de likes MyBB.

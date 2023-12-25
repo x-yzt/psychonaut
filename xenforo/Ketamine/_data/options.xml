@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="mybb_import_log_table_name" edit_format="textbox" data_type="string" advanced="0">
+    <default_value></default_value>
+    <relation group_id="xyzt_ketamine" display_order="1"/>
+  </option>
+  <option option_id="mybb_seo_plugin_table_name" edit_format="textbox" data_type="string" advanced="0">
+    <default_value></default_value>
+    <relation group_id="xyzt_ketamine" display_order="1"/>
+  </option>
+</options>
