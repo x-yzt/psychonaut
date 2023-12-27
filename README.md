@@ -6,10 +6,6 @@
 titre d'illustration, et diffèrent du code utilisé en pratique. Pour avoir une
 idée précise des choses qui se passent, il faudra plonger dans le vrai code !
 
-**📢 Attention :** les chemins et URIs présentes dans ce document utilisent
-pour l'instant le domaine du playground de tests, par celles du serveur de
-production.
-
 ℹ️ Les addons doivent être installés à partir des packages zip, par exemple
 `Serotonin/_releases/Xyzt-Serotonin-1.0.0-dev.zip`, pas à partir du code
 source !
@@ -19,7 +15,7 @@ source !
 * Logs `nginx` :
 
   ```sh
-  $> sudo cat /var/log/nginx/psychonaut.ynh.fr-error.log
+  $> sudo cat /var/log/nginx/www.psychonaut.fr-error.log
    ```
 
 * Recharger la config de `nginx` :
@@ -34,24 +30,33 @@ source !
   $> sudo php /var/www/my_webapp/www/cmd.php xf-addon:build-release Xyzt/SuperAddonDeLaMort
    ```
 
+* Je veux `chmod` tous les sous-dossiers d'un répertoire `nudes` en `755`
+  (`rwxr-xr-x`), et tous les fichiers inclus en `644` (`rw-r--r--`) :
+
+  ```sh
+  $> cd nudes
+  $> chmod -R 755 .
+  $> find . -type f -exec chmod 644 -- {} +
+  ```
+
 ## Configuration de `nginx`
 
 Les configuration des autres services que Xenforo et consorts (PHPMyAdmin,
 Cockpit...) ne sont pas présentes sur ce repo.
 
-### `/etc/nginx/conf.d/psychonaut.ynh.fr.conf`
+### `/etc/nginx/conf.d/www.psychonaut.fr.conf`
 
 Configuration racine pour le domaine apex.
 
-### `/etc/nginx/conf.d/psychonaut.ynh.fr.d/my_webapp.conf`
+### `/etc/nginx/conf.d/www.psychonaut.fr.d/my_webapp.conf`
 
 Paramètres généraux pour le logiciel Xenforo.
 
-### `/etc/nginx/conf.d/psychonaut.ynh.fr.d/my_webapp.d/php.conf`
+### `/etc/nginx/conf.d/www.psychonaut.fr.d/my_webapp.d/php.conf`
 
 Configuration de PHP et lien avec `fastcgi` et `php-fpm`.
 
-### `/etc/nginx/conf.d/psychonaut.ynh.fr.d/my_webapp.d/mybb-threads.conf`
+### `/etc/nginx/conf.d/www.psychonaut.fr.d/my_webapp.d/mybb-threads.conf`
 
 Rewrite nécessaire au fonctionnenement de Kétamine, addon chargé de la
 redirection des anciens liens de sujet.
@@ -125,11 +130,11 @@ laquelle est déployée Xenforo.
 * Résolution d'URI par Xenforo, qui renvoie un code HTTP `301 moved
   permanently` :
 
-  ➡️ <https://psychonaut.ynh.fr/index.php?threads/sos-modo-battu-vs-solidarite-drogue-reprime.15389/>
+  ➡️ <https://www.psychonaut.fr/index.php?threads/sos-modo-battu-vs-solidarite-drogue-reprime.15389/>
 
 * Après rewrite par `nginx` :
 
-  ➡️ <https://psychonaut.ynh.fr/threads/sos-modo-battu-vs-solidarite-drogue-reprime.15389/>
+  ➡️ <https://www.psychonaut.fr/threads/sos-modo-battu-vs-solidarite-drogue-reprime.15389/>
 
 ## Importation des likes *(donnez moi de la reconnaissance)*
 
