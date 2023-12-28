@@ -39,6 +39,8 @@ source !
   $> find . -type f -exec chmod 644 -- {} +
   ```
 
+* [Chercher une icône FontAwesome v5][2]
+
 ## Configuration de `nginx`
 
 Les configuration des autres services que Xenforo et consorts (PHPMyAdmin,
@@ -220,3 +222,5 @@ Elle peut être supprimée après.
 * Et `$repo->rebuildReactionCache()` pour finir.
 
 [1]: https://mixtures.info/fr/blog/article/des-sources-en-balle/
+
+[2]: https://fontawesome.com/v5/search?o=r&m=free
