@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "Psilocine",
+    "description": "Fourre-tout de petites modifications dédiées à Psychonaut. Habilement bricolé par xyzt_.",
+    "version_id": 1000010,
+    "version_string": "1.0.0-dev",
+    "dev": "xyzt_",
+    "dev_url": "https://github.com/x-yzt",
+    "faq_url": "https://github.com/x-yzt/psychonaut",
+    "support_url": "https://github.com/x-yzt/psychonaut/issues/",
+    "extra_urls": [],
+    "require": [],
+    "icon": "fa-fill"
+}

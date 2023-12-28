@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Entity\\BbCode",
+    "to_class": "Xyzt\\Psilocin\\Entity\\BbCode",
+    "execute_order": 10,
+    "active": true
+}

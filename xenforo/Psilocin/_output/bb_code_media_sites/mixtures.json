@@ -1,0 +1,18 @@
+{
+    "site_title": "Mixtures.info",
+    "site_url": "https://mixtures.info",
+    "match_urls": "https://mixtures.info/*/substance/{$id}",
+    "match_is_regex": false,
+    "match_callback_class": "",
+    "match_callback_method": "",
+    "embed_html": "<iframe src=\"https://mixtures.info/fr/recap/{$id}/\" style=\"border: none; width: 100%; height: auto\" ></iframe>",
+    "embed_html_callback_class": "",
+    "embed_html_callback_method": "",
+    "cookie_third_parties": "",
+    "oembed_enabled": false,
+    "oembed_api_endpoint": "",
+    "oembed_url_scheme": "",
+    "oembed_retain_scripts": true,
+    "supported": true,
+    "active": true
+}
